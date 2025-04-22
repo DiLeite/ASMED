@@ -1,0 +1,6 @@
+@ASMED.API_HostAddress = http://localhost:5134
+
+GET {{ASMED.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

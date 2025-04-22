@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASMED.Domain\ASMED.Domain.csproj" />
+    <ProjectReference Include="..\ASMED.Data\ASMED.Data.csproj" />
+    <ProjectReference Include="..\ASMED.Core\ASMED.Core.csproj" />
+    <ProjectReference Include="..\ASMED.Shared\ASMED.Shared.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
